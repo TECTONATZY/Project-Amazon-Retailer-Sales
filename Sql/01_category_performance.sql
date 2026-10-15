@@ -1,10 +1,4 @@
--- ============================================================
--- 01 | CATEGORY PERFORMANCE
--- Business question : Which product categories sell best?
--- KPIs              : Total orders, revenue, avg rating, units sold
--- Dialect           : BigQuery Standard SQL
--- Expected result   : 6 rows; Beauty highest (~5.55M), Sports lowest (~5.41M)
--- ============================================================
+--WHICH PRODUCT BEST SALES IN CATEGORY ?
 SELECT
   product_category,
   COUNT(*) AS total_orders,
